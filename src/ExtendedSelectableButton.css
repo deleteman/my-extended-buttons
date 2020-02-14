@@ -1,0 +1,32 @@
+
+
+.extendedSelectableButton {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+}
+
+.extendedSelectableButton.selected {
+    font-weight: bold;
+    color:#ca9c9c;
+}
+
+.extendedSelectableButton:hover {
+    border-width: 2px;
+}
+
+.important {
+    background-color: #990000;
+    color: white;
+}
+
+.irrelevant {
+    background-color: #888800;
+}
+
+.optional {
+    background-color: #005555;
+    color: white;
+}
