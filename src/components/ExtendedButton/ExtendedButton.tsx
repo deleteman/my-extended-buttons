@@ -9,8 +9,11 @@ enum ButtonTypes {
 }
 
 interface IButtonProps {
+    /** The text inside the button */
     text: string,
+    /** The type of button, pulled from the Enum ButtonTypes */
     type: ButtonTypes,
+    /** The function to execute once the button is clicked */
     action: () => void
 }
 

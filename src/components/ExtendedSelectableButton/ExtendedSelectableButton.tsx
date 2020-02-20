@@ -9,8 +9,11 @@ enum SelectableButtonTypes {
 }
 
 interface IButtonProps {
+    /** The text inside the button */
     text: string,
+    /** The type of button, pulled from the Enum SelectableButtonTypes */
     type: SelectableButtonTypes,
+    /** The function to execute once the button is clicked. Receives a boolean indicating whether the button is selected or not */
     action: (selected: boolean) => void
 }
 
